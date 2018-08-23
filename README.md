@@ -3,6 +3,8 @@ centreon mobile app for android
 
 non official application for users of Centreon
 
+## App prerequisite
+
 this app work for centreon :
 - 2.8.X
 - 2.7.X
@@ -12,7 +14,7 @@ this app work for centreon :
 
 allows you to keep your supervision at your fingertips with real-time notifications via a service installed on your centreon / nagios infrastructure.
 
-features list :
+### features :
 
 list of services acknowledge or not with search filter and sorting
 
@@ -41,13 +43,33 @@ for each host or in list, we can do the same actions as on a service, but it is 
  shortcut list of the latest notifications received [all centreon users]
 
 sending notifications:
-    - with possibility to set a different ringtone for problems and resolutions
-    - button to automatically acknowledge a problem.
-    - button to automatically set downtime to a problem
+- with possibility to set a different ringtone for problems and resolutions
+- button to automatically acknowledge a problem.
+- button to automatically set downtime to a problem
 
 
 widget which allows to have an overview of its infrastructure with automatic or manual refresh and shortcut to the application
 
+
+### Notifications instructions
+
+the token is avaible in the app  :  Settings => Notifications Activation
+
+![Android capture](androidcapturenotif.jpg?raw=true "notif catpure")
+
+download sendpush  and put it in your plugins directory
+
+create notification service 
+
+exemple for service :
+
+$USER1$/sendpush -t “$NOTIFICATIONTYPE$” -h “$HOSTID$” -s “$SERVICEID$” -S “$SERVICEDESC$” -H “$HOSTNAME$” -e “$SERVICESTATE$” -d “$LONGDATETIME$” -o “$SERVICEOUTPUT$” -k “***token***”
+
+exemple for host :
+
+$USER1$/sendpushservice.sh -t “$NOTIFICATIONTYPE$” -h “$HOSTID$” -H “$HOSTNAME$” -e “$HOSTSTATE$” -d “$LONGDATETIME$” -o “$HOSTOUTPUT$” -k “***token***”
+
+replace ***token***  with you own token 
 
 More informations about centreon system :
 http://www.centreon.com
