@@ -3,7 +3,7 @@ centreon mobile app for android
 
 non official application for users of Centreon
 
-## App prerequisite
+### App prerequisite
 
 this app work for centreon :
 - 2.8.X
@@ -51,7 +51,7 @@ sending notifications:
 widget which allows to have an overview of its infrastructure with automatic or manual refresh and shortcut to the application
 
 
-### Notifications instructions
+## Notifications instructions
 
 the token is avaible in the app  :  Settings => Notifications Activation
 
