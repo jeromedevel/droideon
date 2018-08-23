@@ -70,6 +70,6 @@ exemple for host :
 $USER1$/sendpushservice.sh -t “$NOTIFICATIONTYPE$” -h “$HOSTID$” -H “$HOSTNAME$” -e “$HOSTSTATE$” -d “$LONGDATETIME$” -o “$HOSTOUTPUT$” -k “***token***”
 
 replace ***token***  with you own token 
-
+### About 
 More informations about centreon system :
 http://www.centreon.com
