@@ -14,9 +14,12 @@ allows you to keep your supervision at your fingertips with real-time notificati
 
 features list :
 
--list of services acknowledge or not with search filter and sorting
--detail of the service with metrics and select date when click on metric.
--for each service or in list :
+list of services acknowledge or not with search filter and sorting
+
+detail of the service with metrics and select date when click on metric.
+
+for each service or in list :
+
     - acknowledge and disacknowledge
     - add or remove a downtime
     - enable / disable notifications
@@ -24,23 +27,26 @@ features list :
     - immediate control [forced]
     - add comment
 
--list of hosts acknowledge or not with search filter and sorting
--detail of a host with the list of associated services
+list of hosts acknowledge or not with search filter and sorting
 
--shorcut in menu host for connect via SSH with connectbot App
--shorcut in menu host for connect via RDP with Windows Remote Desktop App
+detail of a host with the list of associated services
 
--for each host or in list, we can do the same actions as on a service, but it is applied to all services of the host.
+shorcut in menu host for connect via SSH with connectbot App
 
-- list of events related to a service or host with date filter, notifications, status.
-- shortcut list of the latest notifications received [all centreon users]
+shorcut in menu host for connect via RDP with Windows Remote Desktop App
 
--sending notifications:
+for each host or in list, we can do the same actions as on a service, but it is applied to all services of the host.
+
+ list of events related to a service or host with date filter, notifications, status.
+ shortcut list of the latest notifications received [all centreon users]
+
+sending notifications:
     - with possibility to set a different ringtone for problems and resolutions
     - button to automatically acknowledge a problem.
     - button to automatically set downtime to a problem
 
--widget which allows to have an overview of its infrastructure with automatic or manual refresh and shortcut to the application
+
+widget which allows to have an overview of its infrastructure with automatic or manual refresh and shortcut to the application
 
 
 More informations about centreon system :
