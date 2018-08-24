@@ -1,6 +1,8 @@
 # droideon
 centreon mobile app for android
 
+https://play.google.com/store/apps/details?id=com.jeromedevel.centreonmobile
+
 non official application for users of Centreon
 
 ### App prerequisite
