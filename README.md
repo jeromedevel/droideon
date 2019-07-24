@@ -69,11 +69,11 @@ create notification service
 
 exemple for service :
 
-    $USER1$/sendpush -t “$NOTIFICATIONTYPE$” -h “$HOSTID$” -s “$SERVICEID$” -S “$SERVICEDESC$” -H “$HOSTNAME$” -e “$SERVICESTATE$” -d “$LONGDATETIME$” -o “$SERVICEOUTPUT$” -k “***token***”
+    python $USER1$/sendpush -t “$NOTIFICATIONTYPE$” -h “$HOSTID$” -s “$SERVICEID$” -S “$SERVICEDESC$” -H “$HOSTNAME$” -e “$SERVICESTATE$” -d “$LONGDATETIME$” -o “$SERVICEOUTPUT$” -k “***token***”
 
 exemple for host :
 
-    $USER1$/sendpushservice.sh -t “$NOTIFICATIONTYPE$” -h “$HOSTID$” -H “$HOSTNAME$” -e “$HOSTSTATE$” -d “$LONGDATETIME$” -o “$HOSTOUTPUT$” -k “***token***”
+    python $USER1$/sendpushservice.sh -t “$NOTIFICATIONTYPE$” -h “$HOSTID$” -H “$HOSTNAME$” -e “$HOSTSTATE$” -d “$LONGDATETIME$” -o “$HOSTOUTPUT$” -k “***token***”
 
 replace ***token***  with you own token 
 ### About 
