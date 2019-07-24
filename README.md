@@ -61,6 +61,10 @@ the token is avaible in the app  :  Settings => Notifications Activation
 
 download sendpush  and put it in your plugins directory
 
+install prerequisite
+
+    yum install python-requests
+
 create notification service 
 
 exemple for service :
