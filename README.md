@@ -8,6 +8,8 @@ non official application for users of Centreon
 ### App prerequisite
 
 this app work for centreon :
+- 19.x
+- 18.x
 - 2.8.X
 - 2.7.X
 - 2.6.X
